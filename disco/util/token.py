@@ -1,6 +1,6 @@
 import re
 
-TOKEN_RE = re.compile(r'M\w{23}\.[\w-]{6}\..{27}')
+TOKEN_RE = re.compile(r'[A-Z]\w{23}\.[\w-]{6}\..{27}')
 
 
 def is_valid_token(token):
